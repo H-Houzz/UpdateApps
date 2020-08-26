@@ -1,11 +1,5 @@
-# UpdateAppUtils2.0
-
- [ ![](https://img.shields.io/badge/platform-android-green.svg) ](http://developer.android.com/index.html) 
- [ ![Download](https://api.bintray.com/packages/teprinciple/maven/updateapputils/images/download.svg) ](https://bintray.com/teprinciple/maven/updateapputils/_latestVersion)
-### 原作者地址:https://github.com/teprinciple/UpdateAppUtils
-### 一行代码，快速实现app在线下载更新  A simple library for Android update app
-
-#### UpdateAppUtils2.0 特点
+# UpdateApp
+#### UpdateApp 特点
 * Kotlin First，Kotlin开发
 * 支持AndroidX
 * 支持Md5签名验证
@@ -15,12 +9,6 @@
 * 通知栏图片自定义
 * 支持修改是否每次显示弹窗（非强更）
 * 支持安装完成后自动删除安装包
-
-UpdateAppUtils2.0功能结构变化巨大，建议使用2.0以上版本；[2.0以前版本文档](https://github.com/teprinciple/UpdateAppUtils/blob/master/readme/README_1.5.2.md)
-
-#### 效果图
-<img src="https://github.com/teprinciple/UpdateAppUtils/blob/master/img/update_ui_simple.png" width="285"> <img src="https://github.com/teprinciple/UpdateAppUtils/blob/master/img/update_ui_plentiful.png" width="285"> <img src="https://github.com/teprinciple/UpdateAppUtils/blob/master/img/update_ui_change.png" width="285">
-<img src="https://github.com/teprinciple/UpdateAppUtils/blob/master/img/update_ui_custom.png" width="285"> <img src="https://github.com/teprinciple/UpdateAppUtils/blob/master/img/update_ui_downloading.png" width="285"> <img src="https://github.com/teprinciple/UpdateAppUtils/blob/master/img/update_ui_fail.png" width="285">
 
 ### 集成
 
@@ -35,17 +23,8 @@ Support
 implementation 'com.teprinciple:updateapputils:2.3.0'
 ```
 
-AndroidX项目
-```
-注意，由于操作失误bintray 中updateapputilsX被我删掉，
-所以2.3.0以后使用updateapputilsx。之前的仍使用updateapputilsX
-//implementation 'com.teprinciple:updateapputilsX:2.2.1'
-implementation 'com.teprinciple:updateapputilsx:2.3.0'
-
-```
 
 ### 使用
-下面为kotlin使用示例，Java示例请参考[JavaDemo](https://github.com/teprinciple/UpdateAppUtils/blob/master/app/src/main/java/com/example/teprinciple/updateappdemo/JavaDemoActivity.java)
 #### 1、快速使用
 
 ##### 注意：部分手机SDK内部初始化不了context，造成context空指针，建议在application或者使用SDK前先初始化
@@ -184,11 +163,4 @@ implementation 'com.teprinciple:updateapputilsx:2.3.0'
 | downloadingBtnText    | 下载中 下载按钮以及通知栏标题前缀，进度自动拼接在后面 | 下载中   |
 | downloadFailText      | 下载出错时，下载按钮及通知栏标题 | 下载出错，点击重试   |
 
-### Demo体验
-<img src="https://github.com/teprinciple/UpdateAppUtils/blob/master/img/demo.png" width="220">
-
-### 更新日志
-
-#### 2.3.0
-* 修复部分手机context空指针异常
-##### [更多历史版本](https://github.com/teprinciple/UpdateAppUtils/blob/master/readme/version.md)
+#####参考:https://github.com/teprinciple/UpdateAppUtils
