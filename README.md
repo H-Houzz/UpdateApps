@@ -2,7 +2,7 @@
 
  [ ![](https://img.shields.io/badge/platform-android-green.svg) ](http://developer.android.com/index.html) 
  [ ![Download](https://api.bintray.com/packages/teprinciple/maven/updateapputils/images/download.svg) ](https://bintray.com/teprinciple/maven/updateapputils/_latestVersion)
-
+### 原作者地址:https://github.com/teprinciple/UpdateAppUtils
 ### 一行代码，快速实现app在线下载更新  A simple library for Android update app
 
 #### UpdateAppUtils2.0 特点
