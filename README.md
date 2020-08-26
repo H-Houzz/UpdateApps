@@ -163,4 +163,4 @@ implementation 'com.teprinciple:updateapputils:2.3.0'
 | downloadingBtnText    | 下载中 下载按钮以及通知栏标题前缀，进度自动拼接在后面 | 下载中   |
 | downloadFailText      | 下载出错时，下载按钮及通知栏标题 | 下载出错，点击重试   |
 
-#####参考:https://github.com/teprinciple/UpdateAppUtils
+##### 参考:https://github.com/teprinciple/UpdateAppUtils
