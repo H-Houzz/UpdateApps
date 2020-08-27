@@ -187,6 +187,11 @@ internal class UpdateAppActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         // do noting 禁用返回键
+        updateConfig.force.yes {
+            exitApp()
+        }.no {
+            finish()
+        }
     }
 
     /**
