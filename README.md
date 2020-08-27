@@ -20,7 +20,7 @@ repositories {
 
 Support
 ```
-implementation 'com.teprinciple:updateapputils:2.3.0'
+    implementation 'com.github.H-Houzz:UpdateApps:1.0.1'
 ```
 
 
