@@ -50,7 +50,9 @@ internal class UpdateAppReceiver : BroadcastReceiver() {
 
                 // 下载完成
                 if (progress == 100) {
-                    handleDownloadComplete(context, notifyId, nm)
+                    if (updateConfig.isApk) {
+                        handleDownloadComplete(context, notifyId, nm)
+                    }
                 }
             }
 

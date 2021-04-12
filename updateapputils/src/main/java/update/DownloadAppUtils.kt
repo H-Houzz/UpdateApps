@@ -105,7 +105,7 @@ internal object DownloadAppUtils {
             context.appName
         }
 
-        val apkLocalPath = "$filePath/$apkName.apk"
+        val apkLocalPath = "$filePath/$apkName"
 
         downloadUpdateApkFilePath = apkLocalPath
 

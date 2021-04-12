@@ -9,6 +9,7 @@ data class UpdateConfig(
     var thisTimeShow: Boolean = false, // 非强制更新时，指定本次显示弹窗
     var alwaysShowDownLoadDialog: Boolean = false, // 非强制更新时，也显示下载进度dialog
     var force: Boolean = false, // 是否强制更新
+    var isApk:Boolean=true,//是否为apk
     var apkSavePath: String = "", // apk下载存放位置
     var apkSaveName: String = "", // apk 保存名（默认是app的名字）
     var downloadBy: Int = DownLoadBy.APP, // 下载方式：默认app下载
